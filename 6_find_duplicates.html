@@ -1,0 +1,8 @@
+let Array = [1, 2, 2, 3, 4, 4, 5, 1, 6, 3];
+let unique = [];
+for (let i = 0; i < Array.length; i++){
+    if (!unique.includes(Array[i])) {
+        unique.push(Array[i]); 
+    }
+}
+console.log(unique);
